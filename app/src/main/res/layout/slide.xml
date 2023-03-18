@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/sildelinearlayout"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="407dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/Encabeza_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENCABEZADO 1"
+        android:padding="4dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold|normal"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Ver_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Titulo"
+        android:padding="4dp"
+        android:textStyle="normal"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Encabeza_Fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENCABEZADO 2"
+        android:padding="4dp"
+        android:textStyle="bold|normal"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Ver_Lanzamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fecha lanzamiento"
+        android:textStyle="normal"
+        android:padding="4dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Encabeza_Autores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENCABEZADO 3"
+        android:padding="4dp"
+
+        android:textStyle="bold|normal"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Ver_Autor1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Autor 1"
+
+        android:padding="2dp"
+        android:textStyle="normal"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/Encabeza_Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENCABEZADO 4"
+        android:padding="4dp"
+        android:textStyle="bold|normal"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/Ver_Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Descripcion"
+        android:padding="4dp"
+        android:textStyle="normal"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/btn_Boton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Sitio web"
+        android:backgroundTint="#000000"/>
+</LinearLayout>
